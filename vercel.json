@@ -1,9 +1,8 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/api/index.js?path=$1"
+      "source": "/:path*",
+      "destination": "https://69de2e3d937c8a3182ac.digitalforestapp.xyz/:path*"
     }
   ]
 }
