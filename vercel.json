@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "https://69de2e3d937c8a3182ac.digitalforestapp.xyz/:path*"
-    }
-  ]
-}
