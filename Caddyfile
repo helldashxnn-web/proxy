@@ -1,0 +1,7 @@
+:8080
+
+reverse_proxy https://69de2e3d937c8a3182ac.digitalforestapp.xyz {
+    header_up Host 69de2e3d937c8a3182ac.digitalforestapp.xyz
+    header_up X-Forwarded-Host {host}
+    header_up X-Forwarded-Proto https
+}
